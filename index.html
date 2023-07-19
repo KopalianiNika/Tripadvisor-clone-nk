@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/Tripadvisor_logoset_solid_green.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="queries.css">
+  <script defer src="script.js"></script>
+  <title>Tripadvisor</title>
+</head>
+
+<body>
+  <header class="header-section">
+    <div class="container header-flex">
+      <div class="flex-menu-img">
+        <div class="btn-add-div">
+          <ion-icon class="icon-outline icon-menu" name="menu-outline"></ion-icon>
+        </div>
+
+        <a href="#">
+          <img src="img/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="Tripadvisor Logo" class="logo" />
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-ul">
+          <li class="nav-li"><a class="nav-li-a" href="#">Discover</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#">Trips</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#">Community</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#">More</a></li>
+        </ul>
+      </nav>
+
+      <div class="cart-sign-div">
+        <a href="#" class="cart"><ion-icon name="cart-outline"></ion-icon>Cart</a>
+        <a href="#" class="sign">Sign in</a>
+      </div>
+    </div>
+
+
+    <div class="responsive-header">
+      <div class="btn-add-div-test">
+        <ion-icon class="icon-outline icon-menu" name="menu-outline"></ion-icon>
+      </div>
+      <a href="#">
+        <img src="img/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="Tripadvisor Logo" class="logo" />
+      </a>
+      <a href="#" class="cart-responsive"><ion-icon name="cart-outline"></ion-icon></a>
+    </div>
+
+
+    <div class="menu-container">
+      <div>
+        <div class="icon-outline-div">
+          <ion-icon class="icon-outline outline-x" name="close-outline"></ion-icon>
+        </div>
+        <a href="#" class="btn">Sign in</a>
+      </div>
+      <div class="menu-1">
+        <a href="#" class="menu-a">Hotels</a>
+        <a href="#" class="menu-a">Things to Do</a>
+        <a href="#" class="menu-a">Restaurants</a>
+        <a href="#" class="menu-a">Vacation Rentals</a>
+        <a href="#" class="menu-a">Flights</a>
+        <a href="#" class="menu-a">Cruises</a>
+        <a href="#" class="menu-a">Rental Cars</a>
+      </div>
+      <div class="menu-2">
+        <a href="#" class="menu-a">Traveler's Choice</a>
+        <a href="#" class="menu-a">Travel Stories</a>
+      </div>
+      <div class="menu-3">
+        <a href="#" class="menu-a">Plan a trip</a>
+        <a href="#" class="menu-a">Hire a trip designer</a>
+      </div>
+      <div class="menu-4">
+        <a href="#" class="menu-a">Write a review</a>
+        <a href="#" class="menu-a">Post photos</a>
+        <a href="#" class="menu-a">Add a place</a>
+        <a href="#" class="menu-a">View Travel Forums</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="section-where-to">
+      <div class="container">
+        <h1 class="h1">Where to?</h1>
+
+        <div>
+          <ul class="where-to-list">
+            <li class="where-to-li">
+              <a href="#" class="where-to-a where-to-a-line"><ion-icon name="home-outline"
+                  class="where-icon"></ion-icon>Search All</a>
+            </li>
+            <li class="where-to-li">
+              <a href="#" class="where-to-a"><ion-icon name="bed-outline" class="where-icon"></ion-icon>Hotels</a>
+            </li>
+            <li class="where-to-li">
+              <a href="#" class="where-to-a"><ion-icon name="ticket-outline"
+                  class="icon-ticket where-icon"></ion-icon>Things to Do</a>
+            </li>
+            <li class="where-to-li">
+              <a href="#" class="where-to-a"><ion-icon name="restaurant-outline"
+                  class="where-icon"></ion-icon>Restaurants</a>
+            </li>
+            <li class="where-to-li">
+              <a href="#" class="where-to-a"><ion-icon name="key-outline" class="where-icon"></ion-icon>Vacation
+                Rentals</a>
+            </li>
+          </ul>
+        </div>
+        <form action="#" class="center">
+          <div class="search-container">
+            <ion-icon name="search-outline" class="search-icon margin-right"></ion-icon>
+            <input type="text" placeholder="Places to go, things to do, hotels..." name="q" class="search-input">
+            <button type="submit" class="search-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-photo">
+      <div class="container">
+        <div class="photo-of-man">
+          <div class="photo-of-riding"></div>
+
+          <div class="section-photo-3-div">
+            <h2 class="section-photo-3-div-h2">The world's top Things to Do</h2>
+            <p class="section-photo-3-div-p">See 2023's Travelers' Choice Best of the Best winners.</p>
+            <a class="section-photo-3-div-a" href="#">See the list</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-category">
+      <div class="container">
+
+        <p class="section-category-1-p">Top Things to Do by category</p>
+        <p class="section-category-2-p">Travelers' Choice Best of the Best winners</p>
+
+        <div class="arrow-relative">
+          <div class="grid  grid-custome">
+
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption.jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Top Overall</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (1).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Bucket List</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (2).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Food & Cullinary</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (3).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Nature & Outdoor</p>
+            </div>
+
+          </div>
+          <div class="arrow-absoloute">
+            <ion-icon name="arrow-forward-outline" class="arrow-icon"></ion-icon>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <aside>
+      <div class="container">
+        <p class="section-category-1-p">Your recent searches</p>
+        <div class="aside-flex">
+          <div class="recent-searches-flex">
+            <ion-icon name="search-outline" class="search-icon"></ion-icon>
+            <p class="alaska-p">Things to do in alaska</p>
+          </div>
+
+          <div class="recent-searches-flex-location">
+            <ion-icon name="location-outline" class="search-icon"></ion-icon>
+            <div>
+              <p class="alaska-p">alaska</p>
+              <p class="states">united states</p>
+            </div>
+          </div>
+
+          <div class="recent-searches-flex-location">
+            <ion-icon name="location-outline" class="search-icon"></ion-icon>
+            <div>
+              <p class="alaska-p">Chicago</p>
+              <p class="states">illinois</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <section class="section-highlights">
+      <div class="container">
+        <p class="recently-p">Recently viewed</p>
+
+        <div class="arrow-relative">
+
+          <div class="grid grid--columns-4">
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (5).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Day Trip to Kakheti Wine Region Including Seven Wine Tastings</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">1020</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (6).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Day Trip to Kazbegi and Gudauri Including 4WD</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">448</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (4).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Highlights of Caucasus Mountains-Jinvali,Ananuri</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">1,101</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (14).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Grand Circle Island and Haleiwa 9 Hour Tour</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">9,320</p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="arrow-absoloute">
+            <ion-icon name="arrow-forward-outline" class="arrow-icon-2"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tbilisi">
+      <div class="container">
+        <p class="section-category-1-p">Ways to our tbilisi</p>
+        <p class="section-category-2-p">Book these experiences for a close-up look at Tbilisi.</p>
+
+        <div class="arrow-relative">
+
+          <div class="grid grid--columns-4">
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (15).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Highlights of Kakheti wine region-Signagi,Bodbe,Wine tasting(Group
+                  Tour)</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">336</p>
+              </div>
+              <p class="price">from $35 per adult</p>
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (16).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Small-Group Khinkali and Khachapuri Cooking Class in Tbilisi 22222</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">56</p>
+              </div>
+              <p class="price">from $24 per adult</p>
+
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (17).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">Kakheti: Bodbe (Monastery), Sighnaghi (Love city), Telavi Wine Tour from
+                  Tbilisi</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">164</p>
+              </div>
+              <p class="price">from $27 per adult</p>
+
+            </div>
+
+            <div>
+              <div class="image-container">
+                <img src="img/caption (7).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+                <a href="#" class="caucasus">2 UNESCO sites in 4 hours-Mtskheta,Jvari,bazaar,wine tasting 222</a>
+                <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+                <img src="img/TC_badge_yellow.svg" alt="owl logo" class="owl-logo">
+
+              </div>
+
+              <div class="circle-flex">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p class="circle-p">190</p>
+              </div>
+              <p class="price">from $35 per adult</p>
+
+            </div>
+
+
+          </div>
+          <div class="arrow-absoloute">
+            <ion-icon name="arrow-forward-outline" class="arrow-icon-2"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-child">
+      <div class="container">
+        <div class="child-photo-relative">
+          <div class="child-photo"></div>
+
+          <div class="section-child-3-div">
+            <h2 class="section-child-3-div-h2">The ultimate family travel guide</h2>
+            <p class="section-child-3-div-p">An inspo-packed playbook for getting your next trip into gear</p>
+            <a class="section-child-3-div-a" href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-explore">
+      <div class="container">
+        <p class="explore-1-p">More to explore</p>
+
+        <div class="grid grid--columns-3">
+
+          <div class="icon-over-photo-div">
+            <div class="image-container">
+              <img src="img/f35e1d77-d516-4b86.jpg" alt="photos of Top Things to Do by category"
+                class="photos-of-category">
+            </div>
+            <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+
+            <div class="description-parent">
+              <a href="#" class="description">A zero-plans road trip through the American Southwest—and how to pull it
+                off</a>
+            </div>
+          </div>
+
+          <div class="icon-over-photo-div">
+            <div class="image-container">
+              <img src="img/386b394e-4cee-4306.jpg" alt="photos of Top Things to Do by category"
+                class="photos-of-category">
+            </div>
+            <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+
+            <div class="description-parent">
+              <a href="#" class="description">Where should you and your family go next? The Tripadvisor community weighs
+                in.</a>
+            </div>
+          </div>
+
+          <div class="icon-over-photo-div responsive-centre">
+            <div class="image-container">
+              <img src="img/caption (13).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+            </div>
+            <ion-icon name="heart-outline" class="icon-heart"></ion-icon>
+
+            <div class="description-parent">
+              <a href="#" class="description responsive-centre-text">Cool desert towns: Four locals share their favorite
+                spots</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-places">
+      <div class="container">
+
+        <p class="section-category-1-p">Top destinations for beach lovers</p>
+        <p class="section-category-2-p">Recommended based on your activity</p>
+
+        <div class="arrow-relative">
+          <div class="grid  grid-custome">
+
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (18).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Tulum, Mexico</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/bora-bora.jpg" alt="photos of Top Things to Do by category" class="photos-of-category ">
+              </div>
+              <p class="texts-of-photos-p">Bora Bora, French Polynesia</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (19).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Tenirife, Spain</p>
+            </div>
+            <div class="text-over-photo-div">
+              <div class="image-container">
+                <img src="img/caption (20).jpg" alt="photos of Top Things to Do by category" class="photos-of-category">
+              </div>
+              <p class="texts-of-photos-p">Hawaii</p>
+            </div>
+
+          </div>
+          <div class="arrow-absoloute">
+            <ion-icon name="arrow-forward-outline" class="arrow-icon"></ion-icon>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section-winners">
+      <div class="container grid grid--columns-2">
+        <div class="test">
+          <img src="img/TC_badge_yellow.svg" alt="owl logo" class="owl-logo-winners">
+          <p class="heading-of-winners">Travelers' Choice Best of the Best</p>
+          <p class="secondary-heading">Our top 1% of places, stays, eats, and experiences—decided by you.</p>
+          <a href="#" class="winners-btn">See the winners</a>
+        </div>
+        <div>
+          <img src="img/tc_cards_2023.jpg" alt="man riding motorcyle" class="section-winners-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-travel">
+      <div class="container">
+        <p class="travel-1-p">Trending in travel</p>
+        <ul class="travel-ul-container">
+          <li class="where-to-li">
+            <a href="#" class="where-to-a where-to-a-line-footer">Summer Destinations</a>
+          </li>
+          <li class="where-to-li">
+            <a href="#" class="where-to-a">Things to Do</a>
+          </li>
+        </ul>
+
+        <div class="travel-list-grid">
+          <a href="#" class="list-places-a">Chicago</a>
+          <a href="#" class="list-places-a">Alaska</a>
+          <a href="#" class="list-places-a">London</a>
+          <a href="#" class="list-places-a">Ibiza</a>
+          <a href="#" class="list-places-a">Myrtle Beach</a>
+          <a href="#" class="list-places-a">Colorado</a>
+          <a href="#" class="list-places-a">Dublin</a>
+          <a href="#" class="list-places-a">Sorrento</a>
+          <a href="#" class="list-places-a">Outer Banks</a>
+          <a href="#" class="list-places-a">Wyoming</a>
+          <a href="#" class="list-places-a">Edinburgh</a>
+          <a href="#" class="list-places-a">Positano</a>
+          <a href="#" class="list-places-a">Martha's Vineyard</a>
+          <a href="#" class="list-places-a">Canada</a>
+          <a href="#" class="list-places-a">Copenhagen</a>
+          <a href="#" class="list-places-a">Majorca</a>
+          <a href="#" class="list-places-a">Yellowstone National Park</a>
+          <a href="#" class="list-places-a">Maine</a>
+          <a href="#" class="list-places-a">Split</a>
+          <a href="#" class="list-places-a">Santorini</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="sites-main-flex">
+          <div class="sites-flex">
+            <ul class="footer-ul">
+              <p class="footer-heading">About Tripadvisor</p>
+              <li class="footer-li"><a href="#" class="footer-a">About us</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Press</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Resources and Policies</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Careers</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Investor Relations</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Trust & Safety</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Contact us</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Accessibility Statement</a></li>
+            </ul>
+
+            <ul class="footer-ul">
+              <p class="footer-heading">Explore</p>
+              <li class="footer-li"><a href="#" class="footer-a"> Write a review</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Add a Place</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Join</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Travelers' Choice</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">GreenLeaders</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Blog</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Help Center</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Tripadvisor Plus</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Travel Articles</a></li>
+            </ul>
+
+            <ul class="footer-ul">
+              <p class="footer-heading">Do Business With Us</p>
+              <li class="footer-li"><a href="#" class="footer-a">Owners</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Business Advantage</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Sponsored Placements</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Advertise with Us</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Access our Content API</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Become an Affiliate</a></li>
+              <p class="footer-heading">Get The App</p>
+              <li class="footer-li"><a href="#" class="footer-a">iPhone App</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Android App</a></li>
+            </ul>
+          </div>
+
+          <div class="sites-div">
+            <p class="footer-heading">Tripadvisor Sites</p>
+            <p class="sites-p">Discover your dream destination with<a href="#" class="sites-a">Jetsetter</a></p>
+            <p class="sites-p">Book the best restaurants with <a href="#" class="sites-a">TheFork</a></p>
+            <p class="sites-p">Book tours and attraction tickets on <a href="#" class="sites-a">Viator</a></p>
+            <p class="sites-p">Read cruise reviews on<a href="#" class="sites-a">Cruise Critic</a></p>
+            <p class="sites-p">Get airline seating charts on <a href="#" class="sites-a">Seat Guru</a></p>
+            <p class="sites-p">Find vacation rentals on <a href="#" class="sites-a">FlipKey</a></p>
+            <p class="sites-p">Search for holiday rentals on<a href="#" class="sites-a">Holiday Lettings</a></p>
+            <p class="sites-p"> Plan and book your next trip with<a href="#" class="sites-a">Reco Trip Designers</a></p>
+          </div>
+
+        </div>
+
+        <div class="responsive-footer-main-div">
+          <div class="responsive-footer-a-div">
+            <a href="#" class="responsive-footer-a"><ion-icon name="add-outline"
+                class="responsive-footer-icon"></ion-icon>About Tripadvisor</a>
+          </div>
+          <div class="responsive-footer-a-div">
+            <a href="#" class="responsive-footer-a"><ion-icon name="add-outline"
+                class="responsive-footer-icon"></ion-icon>Explore</a>
+          </div>
+          <div class="responsive-footer-a-div">
+            <a href="#" class="responsive-footer-a"><ion-icon name="add-outline"
+                class="responsive-footer-icon"></ion-icon>Do Business With Us</a>
+          </div>
+          <div class="responsive-footer-a-div">
+            <a href="#" class="responsive-footer-a"><ion-icon name="add-outline"
+                class="responsive-footer-icon"></ion-icon>Get The App</a>
+          </div>
+          <div class="responsive-footer-a-div">
+            <a href="#" class="responsive-footer-a"><ion-icon name="add-outline"
+                class="responsive-footer-icon"></ion-icon>Tripadvisor Sites</a>
+          </div>
+        </div>
+
+        <div class="grid grid-options">
+          <div>
+            <div class="flex-logo-use">
+              <img src="img/Tripadvisor_logoset_solid_green.svg" alt="tripadvisor logo" class="tripadvisor-logo">
+
+              <div class="use-flex">
+                <p class="copy">&copy;2023 Tripadvisor LLC All rights reserved.</p>
+                <a href="#" class="use">Terms of Use</a>
+                <a href="#" class="use">Privacy and Cookies Statement</a>
+                <a href="#" class="use">Cookie consent</a>
+                <a href="#" class="use">Site Map</a>
+                <a href="#" class="use">How the site works</a>
+                <a href="#" class="use">Contact us</a>
+              </div>
+            </div>
+            <p class="warning">This is the version of our website addressed to speakers of English in the United States.
+              If you
+              are
+              a
+              resident of another country or region, please select the appropriate version of Tripadvisor for your
+              country
+              or region in the drop-down menu.</p>
+          </div>
+          <div class="grid-options-flex">
+
+            <form action="#" class="flex-form">
+              <select name="" id="" class="select">
+                <option value="" class="options">CHF</option>
+                <option value="" class="options">$ USD</option>
+                <option value="" class="options">£ British Pounds</option>
+                <option value="" class="options">€ Euros</option>
+                <option value="" class="options">CHF Swiss Francs</option>
+              </select>
+
+              <select name="" id="" class="select">
+                <option value="" class="options">United States</option>
+                <option value="" class="options">Canada (English)</option>
+                <option value="" class="options">Canada (English)</option>
+                <option value="" class="options">Brasil</option>
+                <option value="" class="options">México</option>
+              </select>
+            </form>
+            <div class="icons-flex">
+              <a class="footer-icons" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a class="footer-icons" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a class="footer-icons" href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+              <a class="footer-icons" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </main>
+</body>
+
+</html>
